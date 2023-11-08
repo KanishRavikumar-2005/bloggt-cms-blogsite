@@ -1,4 +1,4 @@
-# Blogg't Content Management System (Blog Site) - Readme
+# Blogg't Content Management System (Blog Site)
 
 >Note: 
 >>This was developed as a task for [Bharat Intern](https://bharatintern.live/b/i/index.html) Full Stack Development
