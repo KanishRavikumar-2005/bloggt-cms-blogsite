@@ -1,0 +1,242 @@
+
+@font-face {
+  font-family: 'Jost';
+}
+body{
+  font-family: Jost;
+}
+*{
+  box-sizing: border-box;
+}
+.igcc{
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.igcc:hover{
+  background: #ededed;
+}
+.igcc img{
+  height: 90%;
+}
+.alx{
+  text-decoration: none;
+  color: #181818;
+}
+.topbar{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+mainbody{
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  right: 0px;
+  bottom:0px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-box {
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.bannerImg{
+  width: 60%;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease;
+}
+.login-elements{
+  width: 100%;
+}
+.loginInp{
+  display: block;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+  width: 100%;
+  height: 35px;
+  /* border-radius: 3px; */
+  /* background: var(--gray); */
+  border-color: #cc;
+  outline: none;
+  color: var(--blue);
+  padding-left: 10px;
+}
+
+.loginBtn{
+  border: none;
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+  background: #171a1b;
+  border-color: #171a1b;
+  outline: none;
+  color: #e1eee5;
+  padding-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* Style for the container */
+    .article-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Style for each article item */
+    .article-item {
+        width: 200px;
+        margin: 10px;
+        text-align: center;
+        overflow: hidden; /* To hide any image overflow */
+    }
+
+    /* Style for the thumbnail image container */
+    .imdis {
+        border-style: solid;
+        height: 130px; /* Specify the height */
+        width: 195px; /* Specify the width */
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        justify-content: center;
+        border-width: 2px;
+        border-color: #ccc;
+        border-radius: 5px;
+    }
+.alx{
+      
+      font-family: lucida sans;
+      font-size: 16px;
+      margin: 10px;
+    }
+    .url{
+      padding: 0px;
+      margin: 0px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+    /* Style for the thumbnail image */
+    .imdis img {
+        max-width: 100%; /* Make the image fit the width of the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+@media screen and (max-width: 600px){
+  
+  
+}
+.disp{
+  display: flex;
+  /* overflow: scroll; */
+  justify-content: center;
+}
+.downer{
+  width: 420px;
+}
+.article-cont-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.art-item{
+  width: 100%;
+  margin: 10px;
+  text-align: left;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+  border-color: #ccc;
+}
+.art-item a{
+  background-color: #3878ff;
+  padding: 5px;
+  border-style: solid;
+  border-width: 0px;
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.searchinp{
+  margin-bottom: 10px;
+  border: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+  height: 35px;
+  border-color: #cc;
+  outline: none;
+  color: var(--blue);
+  padding-left: 10px;
+}
+.imis{
+  border-style: solid;
+  height: 241px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  border-width: 2px;
+  border-color: #ccc;
+  border-radius: 5px;
+}
+
+.ergo{
+  max-width: 300px;
+}
+
+@media screen and (max-width: 480px){
+  
+}
+
+@media screen and (max-width: 410px){
+  .login-box{
+    width: 100%;
+  }
+  .center{
+    position: absolute;
+    width: 100%;
+  }
+  .bannerImg{
+    width: 90%;
+    transition: width 0.5s ease;
+  }
+  .ergo{
+    width: 100%;
+  }
+}
